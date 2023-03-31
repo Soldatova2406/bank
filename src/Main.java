@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int check = 200, refill = 130;
+        int check = 2000, refill = 400;
         int count = check + refill;
         if (count < 1000) {
             System.out.println(count);
         } else {
-            System.out.println(count + (refill / 100));
+            System.out.println("Ваш бонус - " +(refill/100) + "." + " Итоговый счет - " + (count + (refill / 100))+ ".");
         }
     }
 }
